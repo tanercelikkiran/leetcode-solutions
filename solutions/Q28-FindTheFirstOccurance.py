@@ -8,5 +8,3 @@ class Solution:
                 return i # return the index of the first character of the substring
         
         return -1 # if needle is not found, return -1
-    
-print(Solution().strStr("leetcode", "leeto"))

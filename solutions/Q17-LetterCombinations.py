@@ -26,5 +26,3 @@ class Solution:
                 temp += [x + c for x in ans] # append the letter to each string in ans
             ans = temp # update ans
         return ans
-    
-print(Solution().letterCombinations("23"))

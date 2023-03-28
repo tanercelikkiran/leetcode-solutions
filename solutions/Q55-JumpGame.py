@@ -11,5 +11,3 @@ class Solution:
                 return True  # then return True
             i += 1  # otherwise, move to the next position
         return False # if the current position is not reachable, then return False
-
-print(Solution.canJump([2,3,1,1,4]))

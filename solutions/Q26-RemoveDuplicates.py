@@ -8,5 +8,3 @@ class Solution:
                 nums.pop(i)
             i -= 1
         return len(nums)
-    
-print(Solution().removeDuplicates([1,1,2]))

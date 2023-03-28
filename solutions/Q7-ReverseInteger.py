@@ -11,5 +11,3 @@ class Solution:
         if isNegative: # if x was negative
             ans = -ans # make ans negative
         return ans if -2**31 <= ans <= 2**31 - 1 else 0 # return ans if it is in the range of 32-bit signed integer
-    
-print(Solution().reverse(-123))
