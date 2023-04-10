@@ -4,4 +4,6 @@ This repository contains my solutions to the problems on [Leetcode](https://leet
 
 ## Progress
 
-You can find my progress on my [Leetcode](https://leetcode.com/taner_celikkiran/) page.
+I solved 1 problem so far.
+
+You can find my profile from [my Leetcode page](https://leetcode.com/taner_celikkiran/).
