@@ -16,7 +16,4 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Update README
-        env:
-          LEETCODE_API_KEY: ${{ secrets.LEETCODE_API_KEY }}
-        run: |
-          python update_readme.py
+        run: python update_readme.py
