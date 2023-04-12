@@ -4,6 +4,6 @@ This repository contains my solutions to the problems on [Leetcode](https://leet
 
 ## Progress
 
-I solved **66** problems so far.
+I solved **67** problems so far.
 
 You can find my profile from [my Leetcode page](https://leetcode.com/taner_celikkiran/).
