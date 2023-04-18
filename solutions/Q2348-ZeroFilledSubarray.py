@@ -2,13 +2,13 @@ from typing import List
 
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
-        initial = 0 # initial number of zeros
-        ans = 0 # number of subarrays
+        total, current = 0, 0 # total number of 0s, current number of 0s
 
-        for i in range(len(nums)):
-            if nums[i] == 0: # if the current number is zero
-                initial += 1 # increase the initial number of zeros
-                ans += initial # add the initial number of zeros to the answer
-            else: # if the current number is not zero
-                initial = 0 # reset the initial number of zeros
-        return ans
+        for num in nums: # for each number in the array
+            if num == 0 : # if the number is 0
+                current += 1 # increment the current number of 0s
+                total += current # add the current number of 0s to the total
+            else: # if the number is not 0
+                current = 0 # reset the current number of 0s 
+
+        return total # return the total number of 0s
