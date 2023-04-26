@@ -28,6 +28,3 @@ class Solution:
 
         return ans
 
-print(Solution().levelOrder())
-
-
