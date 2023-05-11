@@ -14,7 +14,7 @@ class Solution:
 
         n, m = len(nums1), len(nums2)
 
-        dp = [[0]*(m+1) for _ in range(n+1)]
+        dp = [[0]*(m+1) for _ in range(+1)]
 
         for i in range(n+1):
             for j in range(m+1):
@@ -26,5 +26,3 @@ class Solution:
                     dp[i][j] = max(dp[i-1][j], dp[i][j-1])
 
         return dp[n][m]
-
-print(Solution().maxUncrossedLines([3],[3,2,3]))
